@@ -1,0 +1,3 @@
+set Pathname="C:\TwitterFeedService"
+cd /d %Pathname%
+java -jar "TwitterFeedReader.jar" >> "FeedReaderLogs%TIME:~0,2%_%TIME:~3,2%_%TIME:~6,2%_%DATE:~7,2%_%DATE:~4,2%_%DATE:~-4%.txt"
